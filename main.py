@@ -18,8 +18,8 @@ for point in points:
             x, y = coordinates(point)
 
             # Visualizing the landmarks
-            xray = cv2.imread('data/xrays/{}'.format(str(record_id) + '.jpeg'))
-            visualizing_landmarks(xray, x, y)
+            # xray = cv2.imread('data/xrays/{}'.format(str(record_id) + '.jpeg'))
+            # visualizing_landmarks(xray, x, y)
 
             jsw_l_left, jsw_m_left, jsw_l_right, jsw_m_right = jsw_lm(x, y)
 
