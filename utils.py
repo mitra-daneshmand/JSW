@@ -65,6 +65,6 @@ def visualizing_landmarks(img, xs, ys):
         else:
             image = cv2.circle(image, (int(xs[i]), int(ys[i])), 7, (255, 0, 144), -1)
 
-    cv2.imwrite("img.png", image)
+    cv2.imwrite("sample/img.png", image)
     return image
 
